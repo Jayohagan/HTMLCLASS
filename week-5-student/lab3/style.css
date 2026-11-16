@@ -2,9 +2,11 @@ body{margin: 0;}
 /*adding fonts*/
 @font-face {
     font-family: pixlz;
-    src: url("../fonts/Silkscreen-Regular.ttf") format("tff")
+    src: url("../fonts/AveriaSansLibre-Regular.ttf")
 }
 /*adding font to h1*/
-h1{
+h1 {
     font-family: "pixlz", sans-serif;
 }
+
+body{}

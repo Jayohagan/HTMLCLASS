@@ -1,0 +1,22 @@
+/*Removing defualt browser spacing controls */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    background-image: url('../imgs/spider-ManNo-Text.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    margin: auto;
+    height: 890px;
+}
+.main_title{
+    perspective: 15em;
+
+    span{
+        position: absolute;
+        transform: rotateX(-45deg);
+    }
+}

@@ -1,6 +1,16 @@
+@font-face {
+    font-family: 'Spider-Man';
+    src: url('../fonts/Anton-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Spider-Man2';
+    src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+
 /*Removing defualt browser spacing controls */
 * {
-    margin: 0;
+    margin: auto;
     padding: 0;
     box-sizing: border-box; 
 }
@@ -8,15 +18,41 @@ body {
     background-image: url('../imgs/spider-ManNo-Text.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 500px;
-    margin: auto;
+    background-size: 580px;
     height: 890px;
+    background-color: #000000;
+    margin-top: 4px;
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
 }
-.main_title{
-    perspective: 15em;
+#spider-man-logo {
+    width: 450px;
+    height: auto;
+    position: center;
+    margin-top: 600px;
+}
 
-    span{
-        position: absolute;
-        transform: rotateX(-45deg);
-    }
+/*bottom text*/
+#release-top {
+    font-family: 'Spider-Man2', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+#release-bottom {
+    font-family: 'Spider-Man', sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 2px;
+}
+#credits {
+    font-family: 'Spider-Man', sans-serif;
+    font-size: 8px;
+    color: #ffffff;
+    text-align: center;
+    width: 480px:
+    margin-top: 10px;
 }
